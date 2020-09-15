@@ -1,8 +1,8 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 type Props = {
-  title: string
-}
+  title: string;
+};
 
 export default function Home({ title = 'React Avançado' }: Props) {
   return (
@@ -12,10 +12,7 @@ export default function Home({ title = 'React Avançado' }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <h1>
-          {title}
-        </h1>
-
+      <h1>{title}</h1>
     </div>
-  )
+  );
 }
